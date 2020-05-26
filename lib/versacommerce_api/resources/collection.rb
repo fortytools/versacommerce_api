@@ -2,6 +2,7 @@
 module VersacommerceAPI
 
   class Collection < Base
+    include Metafieldable
   end
-    
+
 end
